@@ -6,16 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>welcome site</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head> 
 <body>
     <header>
         <div class="gradient">
             <div class="logo">Fancy Logo</div>
         </div>
-        <nav>
+        <nav class="big">
             <div class="home"><a href="index.html">Home</a></div>
             <div class="projects"><a href="projects.html">Projects</a></div>
             <div class="aboutme"><a href="aboutme.html">About Me</a></div>
+        </nav>
+        <nav class="smol">
+            <button id="burgir">
+                <span class="material-symbols-outlined">menu</span>
+                <script src="js/burgir.js"></script>
+            </button>
+            <div class="control" id="rev">
+                <div class="home"><a href="index.html">Home</a></div>
+                <div class="projects"><a href="projects.html">Projects</a></div>
+                <div class="aboutme"><a href="aboutme.html">About Me</a></div>
+            </div>
         </nav>
     </header>
     <main></main>
